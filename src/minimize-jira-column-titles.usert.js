@@ -3,7 +3,8 @@
 // @namespace    https://github.com/D4ST1N/minimize-jira-column-titles
 // @version      0.1
 // @description  try to take over the world!
-// @author       You
+// @author       D4ST1N
+// @license      MIT
 // @match        https://jira.*.com/browse/*
 // @grant        none
 // ==/UserScript==
