@@ -28,7 +28,7 @@
             var style = document.createElement('style');
             style.innerHTML = [
                 `.ghx-column-headers li.ghx-column { display: inline-flex; width: calc(100% / ${titles.length}); }`,
-                '.ghx-column-headers li.ghx-column h2 { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px; }',
+                '.ghx-column-headers li.ghx-column h2 { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100px; }',
                 '#ghx-pool { padding-top: 50px !important; }'
             ].join('');
     document.head.appendChild(style);
