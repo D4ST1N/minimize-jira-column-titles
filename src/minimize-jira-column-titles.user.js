@@ -13,9 +13,11 @@
     'use strict';
 
     const delay = 200;
+    const maxTimes = 50;
     const getTitles = () => document.querySelectorAll('.ghx-column-headers li.ghx-column h2');
 
     let timerId = setTimeout(function tick() {
+        maxTimes -= 1;
         if (getTitles().length) {
             const titles = getTitles();
             titles.forEach((title) => {
@@ -29,7 +31,7 @@
             ].join('');
     document.head.appendChild(style);
             document.querySelector('ghx-pool').style.paddingTop = '50px';
-        } else {
+        } else if (maxTimes > 0) {
             timerId = setTimeout(tick, delay);
         }
     }, delay);
