@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Minimize Jira column titles
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/D4ST1N/minimize-jira-column-titles
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
