@@ -5,7 +5,7 @@
 // @description  Allow to minimize jira column titles
 // @author       D4ST1N
 // @license MIT
-// @match        https://jira.*.com/browse/*
+// @match        *://*/*
 // @grant        none
 // ==/UserScript==
 
