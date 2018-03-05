@@ -12,12 +12,14 @@
 (function() {
     'use strict';
 
-    const delay = 200;
-    const maxTimes = 50;
     const getTitles = () => document.querySelectorAll('.ghx-column-headers li.ghx-column h2');
+    let delay = 100;
+    let maxTimes = 10;
 
     let timerId = setTimeout(function tick() {
         maxTimes -= 1;
+        delay *= 2;
+
         if (getTitles().length) {
             const titles = getTitles();
             titles.forEach((title) => {
