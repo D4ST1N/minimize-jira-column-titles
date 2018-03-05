@@ -2,7 +2,7 @@
 // @name         Minimize Jira column titles
 // @namespace    https://github.com/D4ST1N/minimize-jira-column-titles
 // @version      1.0.0
-// @description  try to take over the world!
+// @description  Allow to minimize jira column titles
 // @author       D4ST1N
 // @license MIT
 // @match        https://jira.*.com/browse/*
